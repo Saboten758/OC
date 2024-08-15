@@ -30,7 +30,7 @@ outcomes of interest: `sensitivity` **(SE)**, `specificity` **(SP)**, and `Area 
 
 ---
 ### What is Sensitivity and Specificity?
-![Sensitivity_and_specificity](imgs/Sensitivity_and_specificity.png)
+![Sensitivity_and_specificity](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sensitivity_and_specificity_1.01.svg/495px-Sensitivity_and_specificity_1.01.svg.png)
 - `sensitivity` and `specificity` describe the accuracy of a test that reports the presence or absence of a medical condition. 
 - `Sensitivity`**(true positive rate)** is the probability of a positive test result, conditioned on the individual truly being positive.
 - `Specificity` **(true negative rate)** is the probability of a negative test result, conditioned on the individual truly being negative.

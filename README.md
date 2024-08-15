@@ -1,5 +1,23 @@
 # Artificial Intelligence performance in Image-Based Ovarian Cancer Identification:
 
+### Table of Contents
+
+- [Introduction](#introduction)
+- [Databases Searched](#databases-searched)
+- [Methods Used](#methods-used)
+- [Meta-Analysis Overview](#meta-analysis-overview)
+- [What is Sensitivity and Specificity?](#what-is-sensitivity-and-specificity)
+- [ROC & AUC](#roc--auc)
+- [sROC](#sroc)
+- [Problems with Deep Learning-Based Approach](#problems-with-deep-learning-based-approach)
+- [Importance of Data in AI Development](#importance-of-data-in-ai-development)
+- [Integration with Clinical Workflows](#integration-with-clinical-workflows)
+- [Metrics and Reporting](#metrics-and-reporting)
+- [Inconsistency of Terminology](#inconsistency-of-terminology)
+- [Further Claims](#further-claims)
+- [Note](#note)
+
+
 ### Introduction:
 - Accurate identification of `ovarian cancer (OC)` is of paramount importance in *clinical treatment success*. 
 - `Artificial intelligence (AI)` is a potentially reliable assistant for the medical imaging recognition.
@@ -7,7 +25,7 @@
 and `meta-analysis` specifically dedicated to AI systemperformance in the diagnosis of *Overian Cancer*
 
 
-### Databases searched:
+### Databases Searched:
 1. [The Medline](https://in.medlineasia.com/)
 2. [Embase](https://www.elsevier.com/en-in/products/embase)
 3. [IEEE](https://www.ieee.org/)

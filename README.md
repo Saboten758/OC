@@ -84,7 +84,7 @@ Imp:
 * Summary receiver operating characteristics (sROC) analysis is a recently developed statistical technique that can be applied to meta-analysis of diagnostic tests. 
 * The sROC curve is initially constructed by plotting the sensitivity (true positivity) and false positivity (1 - specificity) of each study. 
 * After mathematical manipulation of the true and false positivities, linear regression is performed to calculate the slope and y-intercept. These coefficients are then entered into the sROC equation to generate the sROC curve. 
----
+
 ![SROC](imgs/paper.png)
 SROC curve of all 28 studies,which were included in the meta-analysis(from the paper)
 

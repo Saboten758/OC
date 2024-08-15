@@ -24,6 +24,7 @@
 - This paper is the first systematic review
 and `meta-analysis` specifically dedicated to AI systemperformance in the diagnosis of *Overian Cancer*
 
+[Original Paper](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(22)00392-3/fulltext) | [More on Overian Cancer](https://en.wikipedia.org/wiki/Ovarian_cancer) | [Obstetrics & Gynaecology](https://www.thelancet.com/collections/obstetrics-gynaecology?parent=001603)
 
 ### Databases Searched:
 1. [The Medline](https://in.medlineasia.com/)
@@ -156,7 +157,7 @@ Imp:
 * After mathematical manipulation of the true and false positivities, linear regression is performed to calculate the slope and y-intercept. These coefficients are then entered into the sROC equation to generate the sROC curve. 
 
 ![SROC](imgs/paper.png)
-SROC curve of all 28 studies,which were included in the meta-analysis(from the paper)
+sROC curve of all 28 studies,which were included in the meta-analysis(from the paper)
 
 ---
 ### Problems with Deep Learning based approach:

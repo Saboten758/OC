@@ -15,7 +15,6 @@ and `meta-analysis` specifically dedicated to AI systemperformance in the diagno
 5. [Web of Science](https://mjl.clarivate.com/home)
 6. [Cochrane Library](https://www.cochranelibrary.com/)
 
----
 ### Methods used:
 -  Acceptable diagnostic performance was demonstrated in
 subgroup analyses stratified by imaging modalities `(Ultrasound, Magnetic Resonance Imaging, or Computed Tomogra-
@@ -35,17 +34,41 @@ outcomes of interest: `sensitivity` **(SE)**, `specificity` **(SP)**, and `Area 
 ---
 ### ROG & AUC
 
-ROG stands for Reciever Operator Graph. It is used to compare the different confusion matrics produced by taking different thresholds.
+A `confusion matrix` represents the prediction summary in matrix form. 
+
+![conf Example](imgs/conff.png)
+
+*Example of a Confusion  Matrix*
+
+
+It consists of ***four basic characteristics*** that are used to define the measurement metrics of any classifier. They are:
+1. **TP (True Positive)**: TP represents the number of patients who have been properly classified to the class having the disease and they are also sufferening from the disease.
+2. **TN (True Negative)**: TN represents the number of correctly classified patients who are healthy.
+3. **FP (False Positive)**: FP represents the number of misclassified patients with the disease but actually they are healthy.
+4. **FN (False Negative)**: FN represents the number of patients misclassified as healthy but actually they are suffering from the disease.
+
+In any classifier, a **threshold**  is set,which is then responsible for classifying new examples into their **respective classes**. Thus, it is important to choose the most appropriate threshold.
+
+Different thresholds for a classifier can result in various confusion matrices, which becomes really complex to analyse. Hence, ROG is used.
+    
+**ROG** stands for `Reciever Operator Graph`. It is used to compare the different confusion matrics produced by taking different thresholds.
+
 
 ![ROG Example](imgs/ROG.png)
 
-where, **True Positive Rate** is calculated by:
+Where, **True Positive Rate** is calculated by:
 
-![ROG Example](imgs/true_pos.png)
-&  True Negative Rate is calculated by:
+![True Positive](imgs/true_pos.png)
 
+ While, **False Positive Rate** is calculated by:
+![False Positive](imgs/false_pos.png)
+
+**AUC** stands for `Area Under Curve`. It is used to compare one ROC curve with another. Hence, it is used to compare the performance of different classificatio algorithms. Greater the AUG, higher will be performance of the model.
+
+![auc](imgs/AUC.png)
 
 Imp:
 - really good video:
 [ROC and AUC, Clearly Explained!](https://www.youtube.com/watch?v=4jRBRDbJemM)
 - more info: [Google Developers](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+- more on confusion matrics: [towards data science](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)

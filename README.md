@@ -28,6 +28,56 @@ outcomes of interest: `sensitivity` **(SE)**, `specificity` **(SP)**, and `Area 
 
 - Potential advantages of meta-analyses include an improvement in ***precision***, the ability to answer questions not posed by individual studies, and the opportunity to ***settle controversies*** arising from conflicting claims.
 
+
+## Meta-Analysis Overview:
+
+- **Total Studies Identified:** 34
+- **Studies Included in Meta-Analysis:** 28
+
+![Sensitivity_and_specificity](imgs/database.png)
+
+### Overall Diagnostic Performance
+
+- **Sensitivity (SE):** 88% (95% CI: 85−90%)
+- **Specificity (SP):** 85% (95% CI: 82−88%)
+- **Area Under Curve (AUC):** 0.93 (95% CI: 0.91−0.95)
+
+### Performance by Algorithm Type
+
+- **Machine Learning:**
+  - **Sensitivity (SE):** 89% (95% CI: 85−92%)
+  - **Specificity (SP):** 88% (95% CI: 82−92%)
+
+- **Deep Learning:**
+  - **Sensitivity (SE):** 88% (95% CI: 84−91%)
+  - **Specificity (SP):** 84% (95% CI: 80−87%)
+
+### Subgroup Analysis Results
+
+- **Imaging Modalities:**
+  - Ultrasound
+  - Magnetic Resonance Imaging (MRI)
+  - Computed Tomography (CT)
+
+- **Sample Size:**
+  - less than or equal to 300
+  - greater than 300
+
+- **AI Algorithms vs. Clinicians:**
+  - Comparison of AI performance against clinicians
+
+- **Year of Publication:**
+  - Before 2020
+  - After 2020
+
+- **Geographical Distribution:**
+  - Asia
+  - Non-Asia
+
+- **Risk of Bias Levels:**
+  - ≥3 domain low risk
+  - < 3 domain low risk
+
 ---
 ### What is Sensitivity and Specificity?
 ![Sensitivity_and_specificity](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sensitivity_and_specificity_1.01.svg/495px-Sensitivity_and_specificity_1.01.svg.png)
@@ -61,6 +111,7 @@ Different thresholds for a classifier can result in various confusion matrices, 
 
 
 ![ROG Example](imgs/ROG.png)
+*Example of a ROG*
 
 Where, **True Positive Rate** is calculated by:
 
@@ -72,6 +123,7 @@ Where, **True Positive Rate** is calculated by:
 **AUC** stands for `Area Under Curve`. It is used to compare one ROC curve with another. Hence, it is used to compare the performance of different classificatio algorithms. Greater the AUG, higher will be performance of the model.
 
 ![auc](imgs/AUC.png)
+*Example of a AUC*
 
 Imp:
 - really good video:
@@ -155,3 +207,5 @@ included studies have external validation.
 - However, among the three included studies with external valida-
 tion, only one was included in the meta-analysis.
 - The lack of an external validation set may potentially lead to overestimation of the results, which could compromise the generalizability of the model.
+
+[Original Paper](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(22)00392-3/fulltext) | [More on Overian Cancer](https://en.wikipedia.org/wiki/Ovarian_cancer) | [Obstetrics & Gynaecology](https://www.thelancet.com/collections/obstetrics-gynaecology?parent=001603)

@@ -7,7 +7,7 @@
 - [Methods Used](#methods-used)
 - [Meta-Analysis Overview](#meta-analysis-overview)
 - [What is Sensitivity and Specificity?](#what-is-sensitivity-and-specificity)
-- [ROC & AUC](#roc--auc)
+- [ROC and AUC](#roc--auc)
 - [sROC](#sroc)
 - [Problems with Deep Learning-Based Approach](#problems-with-deep-learning-based-approach)
 - [Importance of Data in AI Development](#importance-of-data-in-ai-development)
@@ -107,7 +107,7 @@ outcomes of interest: `sensitivity` **(SE)**, `specificity` **(SP)**, and `Area 
 [more on sensitivity_and_specificity...](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
 
 ---
-### ROG & AUC
+### ROC & AUC
 
 A `confusion matrix` represents the prediction summary in matrix form. 
 

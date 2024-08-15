@@ -101,18 +101,21 @@ data, **limiting the advantages of DL**.
 ---
 ### Importance of Data in AI Development:
 
-- Data Quality: High-quality, well-curated data is crucial for training effective AI models.
+- **Data Quality**: High-quality, well-curated data is crucial for training effective AI models.
 
-- Interconnected Databases: Advocacy for global, interconnected patient data networks is needed.
+- **Interconnected Databases**: Advocacy for global, interconnected patient data networks is needed.
 
-- Rare Cancers: More diverse image databases are required for rare cancers.
+- **Rare Cancers**: More diverse image databases are required for rare cancers.
 
 ### Curation Challenges:
--  Maximization of the power of AI will require the deposition
-of medical data with sufficient annotation in large-scale databases.
-- However, such data are rarely
-curated, and this represents a major bottleneck in
-attempting to learn any AI model
+-  Maximization of the *power of AI* will require the deposition
+of medical data with **sufficient annotation** in large-scale databases.
+- However, such data are **rarely
+curated**, and this represents a major *bottleneck* in attempting to learn any AI model
+- *International collaborative projects* (such as [The Cancer Imaging
+Archive](http://www.cancerimagingarchive.net)) that
+build **large**, **labeled datasets** should make a substantial
+contribution to meeting this challenge
 
 ### Integration with Clinical Workflows:
 It has been suggested
@@ -134,9 +137,16 @@ computer science, also present as the default standard
 of measurement in some studies.
 
 ### Inconsistency of Terminology:
-- here is a disagreement around the critical ter-
-minology applied in AI research.
-- Different papers have defined the same terminology in different ways. 
+- There is a disagreement around the critical terminology applied in AI research.
+- Different papers have defined the same terminology in *different ways*. 
+
+### Further Claims:
+> Within a purely **image-based setting**, AI can achieve on par or *superior performance* to *physicians*
+>>Thus, highlighting its potential as a **decision support system** with immediate clinical implications.
+
+> The high performance of AI model comes at the cost of **high complexity** and **vast number of parameters**. 
+>>Hence, we may be *unable to understand* and *explain* why an AI model has made certain classifications in *image analysis*.
+>>>This type of algorithm is often referred to as a **“black box”**
 
 ## Note:
 - Most studies were carried out in a single center with limited data availability.

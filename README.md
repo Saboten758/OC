@@ -119,12 +119,12 @@ contribution to meeting this challenge
 
 ### Integration with Clinical Workflows:
 It has been suggested
-that scientific research should shift from an AI-physician dichotomy to a combination of AI and clinicians,
-which would be more in line with realistic medical workflows rather than comparing in between them.
+that scientific research should shift from an *AI-physician dichotomy* (conflict) to a combination of AI and clinicians,
+which would be more in line with **realistic medical workflows**.
 
 ### Metrics and Reporting:
 
-Common metrics include sensitivity (SE), specificity (SP), and accuracy, but other metrics like precision and F1 score are also used.
+Common metrics include **sensitivity (SE)**, **specificity (SP)**, and **accuracy**, but other metrics like `precision` and `F1 score` are also used.
 
 The paper further claims:
 
